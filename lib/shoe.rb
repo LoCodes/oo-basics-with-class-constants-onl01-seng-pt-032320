@@ -1,3 +1,8 @@
+# Shoe
+#   BRANDS
+#     keeps track of all brands
+#     only keeps track of unique brands
+
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
